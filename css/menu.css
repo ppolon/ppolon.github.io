@@ -1,0 +1,158 @@
+nav#menu {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background: #3498db;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+nav#menu ul {
+  padding: 0;
+  background: white;
+  margin: 0 auto;
+  display: inline-block;
+  height: 50px;
+}
+
+nav#menu ul li {
+  float: left;
+  padding: 0 20px;
+  background: #3498db;
+  list-style: none;
+  margin-right: 5px;
+  line-height: 50px;
+  height: 50px;
+
+  /*
+   * This element will get an alternative style
+   * once we apply the "scrolled" class.
+   * We also want a nice animation so we can
+   * simply set CSS3 transitions for this.
+   */
+  transition: margin 0.25s ease-in-out;
+}
+
+nav#menu ul li:nth-child(1) {
+  margin-left: 5px;
+}
+
+/*
+nav#menu ul li.active {
+  background: #2980b9;
+}
+*/
+
+nav#menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+nav#menu h1 {
+  font-size: 1.0em;
+  margin: 0;
+  position: absolute;
+  left: 0.5em;
+  color: white;
+  opacity: 0;
+  height:50px;
+  border-bottom:0px;
+  padding-top:0px;
+
+  /*
+   * Same thing here as with the menu items.
+   * This element will be animated into its
+   * alt. state with the transition property
+   */
+  transition: opacity 0.20s ease-in-out;
+}
+
+nav#menu img {
+  opacity:0;
+}
+
+nav#menu.scrolled img {
+  opacity:1;
+}
+
+
+nav#menu a {
+  display:initial;
+}
+
+nav#menu a:link {
+  background: #3498db;
+}
+
+nav#menu a:visited {
+  background: #3498db;
+}
+
+nav#menu a:hover {
+  background: #3498db;
+  color:#990000;
+}
+
+nav#menu.scrolled a:hover {
+  background: #3498db;
+}
+
+/*********************************************
+ * Once the 'scrolled' class is toggled 
+ * we can set any alternative styling that we
+ * want for the menu bar 
+ *********************************************/
+
+nav#menu.scrolled {
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  width:800px;
+}
+
+nav#menu.scrolled ul li {
+  margin: 0;
+}
+
+nav#menu.scrolled h1#sitename1 {
+  font-size: 1.1em;
+  line-height:0;
+  top:12px;
+  margin: 0;
+  position: absolute;
+  left: 50px;
+  color: white;
+  opacity: 1;
+  height:50px;
+  border-bottom:0px;
+  padding-top:0px;
+}
+
+nav#menu.scrolled h1#sitename2 {
+  font-size: 1.1em;
+  line-height:0;
+  top:25px;
+  margin: 0;
+  position: absolute;
+  left: 50px;
+  color: white;
+  opacity: 1;
+  height:50px;
+  border-bottom:0px;
+  padding-top:0px;
+}
+
+nav#menu.scrolled h1#sitename3 {
+  font-size: 1.0em;
+  line-height:0;
+  top:0;
+  margin: 0;
+  position: absolute;
+  left: 10px;
+  color: white;
+  opacity: 1;
+  height:50px;
+  border-bottom:0px;
+  padding-top:0px;
+}

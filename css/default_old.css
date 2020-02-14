@@ -1,0 +1,363 @@
+/* andreas08 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use in any way and for any purpose as long as the proper credits are given to the original designer. Version: 1.0, November 28, 2005 */
+
+
+.publication-lens div.authors {
+    font-style: italic;
+}
+.publication-lens .publication-title {
+    font-weight: bold;
+}
+div.publication-lens {
+    margin-bottom:  1em;
+    margin-top: 1.5em;
+}
+.publication-lens div.authors {
+    font-style: italic;
+}
+.publication-lens .publication-title {
+    font-weight: bold;
+}
+.publication-lens div.downloads {
+    margin-top: 0.5em;
+}
+.publication-lens div.abstract {
+    color:  #666;
+}
+.publication-lens div.excerpt {
+    color:  #666;
+}
+.publication-lens .award {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+a.exhibit-item, a.exhibit-item:link, a.exhibit-item:active, a.exhibit-item:visited {
+    border-bottom:1px dotted;
+}
+.copy-button {
+    float: right;
+}
+.exhibit-tileView-body {
+    padding-left: 20px;
+}
+
+/* the filter boxes at the top */
+div.exhibit-facet-value {
+    padding:0px;
+}
+div.exhibit-facet-header {
+    padding: 0px;
+}
+
+/* get rid of the numbering*/
+ol.exhibit-tileView-body {
+    padding: 0px;
+    margin:  0px;
+}
+.exhibit-tileView-body li {
+    list-style: none;
+}
+
+.exhibit-collectionView-header {
+    display: none;
+}
+.exhibit-collectionView-header-sortControls {
+    display: block;
+}
+
+
+
+/**************** Body and tag styles ****************/
+
+*{margin:0; padding:0;}
+
+body{
+font:13 Trebuchet MS,Tahoma,Arial,sans-serif;
+line-height:1.4em;
+text-align:center;
+color:#303030;
+background:#e8eaec;
+}
+
+a{
+color:#1519FA;
+font-weight:bold;
+text-decoration:none;
+background-color:inherit;
+}
+
+a:hover{color:#aa227a; text-decoration:none; background-color:inherit;}
+/* a img{border:none;} */
+
+p{padding:1 0 10 18;}
+p form{margin-top:0; margin-bottom:20px;}
+li{
+	margin: 0px 0px 0px 20px;
+}
+
+img.left{float:left; margin:10px 12px 5px 0;}
+img.center{display:block; margin:0 auto 5px auto;}
+img.right{float:right; margin:20 0 5px 12px;}
+
+/**************** Header and navigation styles ****************/
+
+
+#menu{
+width:755px;
+height:15px:
+margin:0 10 0 0;
+padding:2 0 2 15;
+text-align:left;
+background:#cccccc;
+color:#222222;
+border:1px solid #eeeeee;
+}
+
+#menu h1{
+margin: 0 10 10 10;
+padding: 20 30 0 10;
+font-size:30px;
+font-weight: bold;
+font-color: black;
+letter-spacing:0px;
+font-weight:normal;
+}
+
+#menu h2{
+margin:10px 0 0 40px;
+font-size:1.4em;
+background-color:inherit;
+color:#f0f2f4;
+letter-spacing:-1px;
+font-weight:normal;
+}
+
+#header a {
+text-decoration:none;
+color: #ffffff;
+}
+
+
+#header #contact{
+    font-size: 12px;
+    line-height: 13px;
+    width:180px;    
+}
+
+#navigation{
+height:2.2em;
+line-height:2.2em;
+width:758px;
+margin:0 1px;
+background:#578bb8;
+color:#ffffff;
+}
+
+/*
+#navigation li{
+float:left;
+list-style-type:none;
+border-right:1px solid #ffffff;
+white-space:nowrap;
+}
+
+#navigation li a, #navigation li span {
+display:block;
+padding:50 10px;
+font-size:1.0em;
+font-weight:normal;
+text-transform:uppercase;
+text-decoration:none;
+background-color:inherit;
+color: #ffffff;
+}
+
+
+#navigation h1{
+    margin:5px 5px 0px 5px;
+    font-size:18px;
+    padding: 15px;
+    text-align:left;
+}
+*/
+
+
+* html #navigation a {width:1%;}
+
+#navigation .webgen-menu-item-selected a, #navigation .webgen-menu-item-selected span, #navigation a:hover {
+background:#80b0da;
+color:#ffffff;
+text-decoration:none;
+}
+
+
+#container{
+width:760px;
+margin:20px auto;
+padding:1px 10 0 0;
+text-align:left;
+background:#ffffff;
+color:#303030;
+border:1px solid #a0a0a0;
+}
+
+#container h1{
+    margin:5px 5px 0px 5px;
+    font-size:18px;
+    padding: 5px;
+    text-align:left;
+}
+
+#container h2{
+	margin: 5px 5px 5px 15px;
+    font-size:15px;
+    letter-spacing:0px;
+    color:#222222;
+    background-color:inherit;
+    border-bottom: solid 1px #467aa7;
+    padding-bottom: 5px;
+}
+
+
+
+/**************** Content styles ****************/
+
+#content{
+float:left;
+width:730px;
+font-size:1.0em;
+padding:5px 10 0 15px;
+}
+
+
+#content h1{
+    color:#24a825;
+    margin:5px 5px 5px 5px;
+    font-size:18px;
+    padding: 10px;
+    text-align:center;
+}
+
+#content h2{
+    display:block;
+	margin: 5px 5px 5px 5px;
+    font-size:1.3em;
+    letter-spacing:-1px;
+    color:#3377aa;
+    background-color:inherit;
+    border-bottom: solid 1px #467aa7;
+    padding-bottom: 5px;
+}
+
+#content h2 a{font-weight:normal;}
+
+#content h3{
+    font-size:1.1em; 
+    letter-spacing:-1px;
+    color:#57aB28;
+}
+
+#content blockquote{
+    text-align:center;
+    font-style:itatlic;
+}
+
+
+#content a:hover,#subcontent a:hover{text-decoration:underline;}
+#content ul,#content ol{margin:0 5px 16px 35px;}
+#content dl{margin:0 5px 10px 25px;}
+#content dt{font-weight:bold; margin-bottom:5px;}
+#content dd{margin:0 0 10px 15px;}
+
+#content pre{border: #aaaaaa dotted 1px; margin-bottom: 10px;}
+
+
+/**************** Sidebar styles ****************/
+
+#subcontent{
+float:right;
+width:170px;
+padding:20px 20px 10px 0;
+line-height:1.4em;
+}
+
+#subcontent h2{
+display:block;
+margin:0 0 15px 10;
+font-size:1.6em;
+font-weight:normal;
+text-align:left;
+letter-spacing:-1px;
+color:#505050;
+background-color:inherit;
+}
+
+#subcontent p{margin:0 0 16px 10; font-size:1.0em;}
+
+/**************** Menublock styles ****************/
+
+#subcontent #submenu ul, .linkblock {margin:0 0 20px 8px; font-size:0.9em;}
+#subcontent #submenu ul li, .linkblock li {list-style:none; display:block; padding:2px; margin-bottom:2px;}
+#subcontent #submenu ul li a, .linkblock li a {font-weight:bold; text-decoration:none;}
+#subcontent #submenu ul li a:hover, .linkblock li a:hover {text-decoration:none;}
+#subcontent #submenu ul li ul, .linkblock li ul {margin:3px 0 3px 15px; font-size:1em; font-weight:normal;}
+#subcontent #submenu ul li ul li, .linkblock li ul li {margin-bottom:0;}
+#subcontent #submenu ul li ul a, .linkblock li ul a {font-weight:normal;}
+
+/**************** Searchbar styles ****************/
+
+#searchbar{margin:0 0 20px 0;}
+#searchbar form fieldset{margin-left:10px; border:0 solid;}
+
+#searchbar #s{
+height:1.2em;
+width:110px;
+margin:0 5px 0 0;
+border:1px solid #a0a0a0;
+}
+
+#searchbar #searchbutton{
+width:auto;
+padding:0 1px;
+border:1px solid #808080;
+font-size:0.9em;
+text-align:center;
+}
+
+/**************** Footer styles ****************/
+
+#footer{
+clear:both;
+width:758px;
+padding:5px 0;
+margin:0 1px;
+font-size:0.9em;
+color:#f0f0f0;
+background:#467aa7;
+}
+
+#footer p{padding:0; margin:0 0 0 10; text-align:center;}
+#footer a{color:#f0f0f0; background-color:inherit; font-weight:bold;}
+#footer a:hover{color:#ffffff; background-color:inherit; text-decoration: underline;}
+
+/**************** Misc classes and styles ****************/
+
+.splitcontentleft{float:left; width:48%;}
+.splitcontentright{float:right; width:48%;}
+.clear{clear:both;}
+.small{font-size:0.8em;}
+.hide{display:none;}
+.textcenter{text-align:center;}
+.textright{text-align:right;}
+.important{color:#f02025; background-color:inherit; font-weight:bold;}
+
+.box{
+margin:0 0 20px 10px;
+padding:10px;
+border:1px solid #c0c0c0;
+background-color:#fafbfc;
+color:#505050;
+line-height:1.5em;
+}

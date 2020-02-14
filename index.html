@@ -1,5 +1,93 @@
 <html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+<title>Jonghyun Choi's Homepage</title>
+<meta name="description" content="Jonghyun Choi PhD student University of Maryland" />
+<meta name="keywords" content="jonghyun choi computer vision larry davis maryland" />
+
+<link media = all href="normalize.css" type = text/css rel=StyleSheet>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link media = all href="ppolon.css" type = text/css rel=StyleSheet>
+
+<!-- jquery -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- prevent js cache by chrome -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+</head>
+
+
 <body>
-Hello world!
+<a class="anchor" id="top"></a>
+
+<div id="navbar">
+    <div id="container">
+        <div id="plain">
+        Jonghyun Choi
+        </div>
+        <a href="#top">Home</a>
+        <a href="#pub">Publications</a>
+        <a href="#awards">Awards</a>
+    </div>
+</div>
+
+
+<div id="includedContentTop"></div>
+
+<!--
+<div id="container">
+<a class="iconary-banner" href="https://iconary.allenai.org/" target="_blank">
+  <div class="iconary-banner__robot"></div>
+  <div class="iconary-banner__announcement">
+    <div class="iconary-banner__text">
+      <h3>Announcing Iconary</h3>
+      <p>Play a drawing and guessing game with AllenAI</p>
+    </div>
+    <div class="iconary-banner__logo">
+      <img src="./photos/iconary_logo.png" alt="Iconary Logo" width=100/>
+    </div>
+  </div>
+  <img class="iconary-banner__play-now" src="./photos//iconary_play-now.png" alt="Play Now Button"  width=100 />
+</a>
+</div>
+-->
+
+<div id="includedContentNews"></div>
+<!-- <div id="includedContentInternship"></div> -->
+
+<a class="anchor" id="pub"></a>
+<div id="includedContentPub"></div>
+
+<a class="anchor" id="services"></a>
+<div id="includedContentServices"></div>
+
+<a class="anchor" id="awards"></a>
+<div id="includedContentAwards"></div>
+
+<!--
+<a class="anchor" id="talks"></a>
+<div id="includedContentTalks"></div>
+-->
+
+<a class="anchor" id="patent"></a>
+<div id="includedContentPatent"></div>
+
+
+<div id="includedContentFooter"></div>
+
+<!-- my scripts -->
+<script src="load_contents.js?v={{ Cache::get('js_version_number') }}"></script>
+<script src="dynamic_top_menu.js"></script>
+<script src="pub_toggler.js"></script>
+<script src="colorize_pub.js"></script>
+
+
 </body>
 </html>
+
+

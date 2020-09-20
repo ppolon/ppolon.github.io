@@ -12,5 +12,7 @@ $(function(){
     $("#includedContentAwards").load("awards.html", 'f' + (Math.random()*1000000));
     $("#includedContentTalks").load("talks.html", 'f' + (Math.random()*1000000));
     $("#includedContentPatent").load("patent.html", 'f' + (Math.random()*1000000));
+    $("#includedContentTeaching").load("teaching.html", 'f' + (Math.random()*1000000));
+    $("#includedContentAdvising").load("advising.html", 'f' + (Math.random()*1000000));
     $("#includedContentFooter").load("footer.html", 'f' + (Math.random()*1000000));
 });

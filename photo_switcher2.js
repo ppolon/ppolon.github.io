@@ -5,7 +5,8 @@ var theImages = new Array() // do not change this
 // pattern below, adding to the array.
 
 // theImages[0] = 'jhchoi_22.jpg' // 'jhchoi.jpg'
-theImages[0] = 'jhchoi34.jpg' // 'jhchoi.jpg'
+// theImages[0] = 'jhchoi34.jpg' // 'jhchoi.jpg'
+theImages[0] = 'jhchoi2020-1.jpg'
 // theImages[0] = 'jhchoi33.jpg' // 'jhchoi.jpg'
 //theImages[1] = 'jhchoi.jpg'
 //theImages[2] = 'jhchoi_23.jpg'

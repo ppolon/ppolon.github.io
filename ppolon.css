@@ -675,6 +675,13 @@ padding: 0;
   padding: 0px 5px 0px 5px;
 }
 
+#container nav .downref {
+  font-weight: 600;
+  background: rgb(235, 235, 235); 
+  color: rgb(19, 128, 55);
+  padding: 0px 5px 0px 5px;
+}
+
 #container .iconary-banner {
   background: url(./photos/iconary_bg.png) center center repeat, linear-gradient(to right, rgba(87, 161, 204, 1) 0%, rgba(65, 140, 193, 1) 100%);
   position: relative;
@@ -812,3 +819,6 @@ padding: 0;
   }
 }
 
+#service {
+  scroll-margin-top: 3em;
+}
